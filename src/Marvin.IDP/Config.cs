@@ -77,8 +77,8 @@ namespace Marvin.IDP
                     PostLogoutRedirectUris =
                     {
                         "https://localhost:44355/signout-callback-oidc"
-                    }
-                   // AlwaysIncludeUserClaimsInIdToken = true
+                    },
+                   AlwaysIncludeUserClaimsInIdToken = true
                 }
              };
         }
